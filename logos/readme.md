@@ -1,0 +1,1 @@
+Store company logos here
