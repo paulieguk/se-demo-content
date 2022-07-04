@@ -1,5 +1,5 @@
 
-![IMAGE](images/Skillable-Logo-color.jpg)
+![IMAGE](https://github.com/paulieguk/se-demo-content/images/Skillable-Logo-color.jpg)
 
 # Company Logo Store
 
