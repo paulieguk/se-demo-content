@@ -43,8 +43,8 @@ been specified Sans Serif which is one of the Web Safe fonts in case there is a
 loading issue.
 
 > @font-face {    
->       font-family: notosansbold;    
->       src: url('https://skillableresources.blob.core.windows.net/theme/fonts/notosans-bold-webfont.woff2') format('woff2');     
+>           font-family: notosansbold;    
+>           src: url('https://skillableresources.blob.core.windows.net/theme/fonts/notosans-bold-webfont.woff2') format('woff2');     
 > }    
 >     
 > h1, h2, h3, h4, h5, h6 {    
