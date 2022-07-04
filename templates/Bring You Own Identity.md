@@ -57,6 +57,8 @@ Headings and the paragraph font.
 The Instruction Script section would contain one line with the link retrieved
 from Google Fonts.
 
+> $('head').append('\<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" type="text/css" /\>');
+
 This single line tells the Skillable lab client to append this content to the
 webpage header and embed a link, that link will contain content from Google that
 will enable the fonts to be downloaded. If you follow the link above it will
@@ -66,7 +68,7 @@ hence the name for the font-family has changed to ‘Noto Sans’.
 Below is a before (left) and after (right) example, with before using the
 default fonts in Skillable:
 
-![IMAGE](images/Picture2.jpg)
+![IMAGE](images/Picture2.png)
 
 # Bring Your Own Logo
 
@@ -107,7 +109,7 @@ name in the following format:
 Wherever that text appears the logo will be displayed in the instructions. By
 combining all the information into a single Theme, the final result is:
 
-![IMAGE](images/Picture1.jpg)
+![IMAGE](images/Picture1.png)
 
 One last point: Themes can be applied not just at the Lab Profile level (e.g.,
 use an Organisation Template Gallery item to create profiles with the Theme
