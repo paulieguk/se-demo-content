@@ -1,0 +1,23 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Sans';
+    color: #150C35
+}
+
+
+p {
+    font-family: Noto Sans;
+}
+
+.instructions div[class*="logo-"] {
+    margin: 0 auto;
+    max-width: 50%;
+    min-height:100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.instructions .logo-company {
+    background-image: url(https://github.com/paulieguk/se-demo-content/raw/main/logos/Skillable-OpenText-Logo-color.jpg);
+}
