@@ -6,7 +6,7 @@
 
 This GitHub Repo is used by Skillable Solution Engineers as an easy access respoitory for content to be access by labs.  This repository is not secured so **NO** intellectual or proprietary content should be loaded onto this repo.
 
-##Contents
+## Contents
 
  - Logos - Lists companies logos for using in Themes and Instructions
  - Images - Supporting image content for this Repo
