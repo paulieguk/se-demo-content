@@ -42,23 +42,23 @@ into the Instruction CSS page of a Theme. Notice in this case a second font has
 been specified Sans Serif which is one of the Web Safe fonts in case there is a
 loading issue.
 
-> @font-face {
->     font-family: notosansbold;
->     src: url('https://skillableresources.blob.core.windows.net/theme/fonts/notosans-bold-webfont.woff2') format('woff2');
-> }
-> 
-> h1, h2, h3, h4, h5, h6 {
->     font-family: notosansbold, sans-serif;
->         color: #3F9B65
-> }
->
-> @font-face {
->     font-family: notosansregular;
->     src: url('https://skillableresources.blob.core.windows.net/theme/fonts/notosans-regular-webfont.woff2') format('woff2');
-> }
-> p {
->     font-family: notosansregular, sans-serif;
-> }
+> @font-face {    
+>     font-family: notosansbold;    
+>     src: url('https://skillableresources.blob.core.windows.net/theme/fonts/notosans-bold-webfont.woff2') format('woff2');     
+> }    
+>     
+> h1, h2, h3, h4, h5, h6 {    
+>     font-family: notosansbold, sans-serif;    
+>         color: #3F9B65    
+> }    
+>    
+> @font-face {    
+>     font-family: notosansregular;     
+>     src: url('https://skillableresources.blob.core.windows.net/theme/fonts/notosans-regular-webfont.woff2') format('woff2');     
+> }    
+> p {    
+>     font-family: notosansregular, sans-serif;    
+> }    
 
 
 ## Public font
@@ -73,14 +73,13 @@ retrieved for downloading the fonts from. In the Instruction CSS content it now
 just lists the parts of a webpage to have the font replaced, so as before
 Headings and the paragraph font.
 
-> h1, h2, h3, h4, h5, h6 {
->     font-family: noto sans, sans-serif;
->         color: #3F9B65
-> }
-> p {
->     font-family: noto sans, sans-serif;
-> }
-
+> h1, h2, h3, h4, h5, h6 {     
+>     font-family: noto sans, sans-serif;    
+>         color: #3F9B65     
+> }     
+> p {     
+>     font-family: noto sans, sans-serif;     
+> }     
 
 The Instruction Script section would contain one line with the link retrieved
 from Google Fonts.
@@ -131,8 +130,24 @@ are called **logo\*** this allows the same settings to be applied to multi
 images if required. Multiple sections can be created if defining different
 values for different images is required.
 
+> .instructions .logo-company {     
+>     background-image: url(https://skillableresources.blob.core.windows.net/theme/fonts/Skillable-Logo-color.jpg);     
+> }    
+>     
+> .instructions div[class*="logo-"] {    
+>     margin: 0 auto;    
+>     max-width: 50%;    
+>     min-height:100px;    
+>     background-size: contain;    
+>     background-position: center;    
+>     background-repeat: no-repeat;    
+> }    
+
 To then use this logo in the instructions the lab author just uses the logo’s
 name in the following format:
+
+> :::logo-company     
+> :::    
 
 Wherever that text appears the logo will be displayed in the instructions. By
 combining all the information into a single Theme, the final result is:
