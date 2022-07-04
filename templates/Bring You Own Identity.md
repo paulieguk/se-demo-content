@@ -66,7 +66,7 @@ hence the name for the font-family has changed to ‘Noto Sans’.
 Below is a before (left) and after (right) example, with before using the
 default fonts in Skillable:
 
-![IMAGE](images/picture2.jpg)
+![IMAGE](images/Picture2.jpg)
 
 # Bring Your Own Logo
 
@@ -107,7 +107,7 @@ name in the following format:
 Wherever that text appears the logo will be displayed in the instructions. By
 combining all the information into a single Theme, the final result is:
 
-![IMAGE](images/picture1.jpg)
+![IMAGE](images/Picture1.jpg)
 
 One last point: Themes can be applied not just at the Lab Profile level (e.g.,
 use an Organisation Template Gallery item to create profiles with the Theme
