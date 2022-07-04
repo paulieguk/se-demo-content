@@ -1,5 +1,6 @@
-
+<center>
 ![IMAGE](images/Skillable-Logo-color.jpg)
+</center>
 
 # Solution Engineer Demonstration content and Assets
 
