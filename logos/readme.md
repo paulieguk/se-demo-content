@@ -20,7 +20,7 @@ To retrieve the logo, click the logo file.  On the right side of the box the log
 ## CSS Theme entry
 The CSS Theme component will look like something like this:
 
-.instructions .logo-company {
-    background-image: url(https://github.com/paulieguk/se-demo-content/raw/main/logos/logofilename.jpg);
+.instructions .logo-company {    
+    background-image: url(https://github.com/paulieguk/se-demo-content/raw/main/logos/logofilename.jpg);    
 }
 
