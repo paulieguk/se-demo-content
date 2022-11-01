@@ -16,3 +16,11 @@ When uploading logo's the following are best practices
 
 ## Logo URL retrieval
 To retrieve the logo, click the logo file.  On the right side of the box the logo is in right click the download button and copy the URL.  Use this URL in the theme.
+
+## CSS Theme entry
+The CSS Theme component will look like something like this:
+
+.instructions .logo-company {
+    background-image: url(https://github.com/paulieguk/se-demo-content/raw/main/logos/logofilename.jpg);
+}
+
