@@ -15,7 +15,7 @@ When uploading logo's the following are best practices
 1. Ensure logo has a Transparent background or has a boarder
 
 ## Logo URL retrieval
-To retrieve the logo, click the logo file.  On the right side of the box the logo is in right click the download button and copy the URL.  Use this URL in the theme.
+To retrieve the logo, right click the logo filename from above and select copy link, use this URL in the theme.
 
 ## CSS Theme entry
 The CSS Theme component will look like something like this:
